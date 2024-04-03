@@ -1,0 +1,12 @@
+header{
+    width: 80%;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+#imgCabecalho{
+    width: 30%;
+    padding: 20px;
+}
+ul li{
+    display: inline-block;
+}
