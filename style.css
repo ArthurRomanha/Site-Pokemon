@@ -1,12 +1,23 @@
 header{
     width: 80%;
-    margin:0 auto;
-    background-color: #ffffff;
+    background-color: #ff0000;
+    border: 1px solid black;
+    padding: 20px 0;
+}
+#divNav{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
 }
 #imgCabecalho{
     width: 30%;
-    padding: 20px;
-}
-ul li{
-    display: inline-block;
 }
