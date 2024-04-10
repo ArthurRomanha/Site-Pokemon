@@ -1,23 +1,33 @@
-header{
-    width: 80%;
-    background-color: #ff0000;
-    border: 1px solid black;
-    padding: 20px 0;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#divNav{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+#divNav {
+    border: 3px solid black;
+    margin: 0 20px;
+    background-color: red;
+
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    font-size: 20px;
+    padding: 20px;
 }
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-nav li{
-    display: inline;
-    margin: 0 0 0 20px;
+
+#caixaImg {
+    margin: 0 20px /* Adiciona um espaçamento entre a imagem e os links */
 }
 #imgCabecalho{
-    width: 30%;
+    width: 20%;
+}
+header li{
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.paragrafos p,h2{
+    margin: 0 20%;
+    padding: 10px 0;
+}
+.paragrafos p{
+    font-size: 20px;
+    line-height: 1.2;
 }
