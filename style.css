@@ -1,5 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
 }
 #divNav {
     border: 3px solid black;
@@ -23,11 +25,10 @@ header li{
     font-weight: bold;
     text-transform: uppercase;
 }
-.paragrafos p,h2{
+.paragrafos p,h2,li{
     margin: 0 20%;
     padding: 10px 0;
 }
-.paragrafos p{
-    font-size: 20px;
-    line-height: 1.2;
+.paragrafos li{
+    margin: 0 0 0 20%;
 }
