@@ -2,28 +2,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
 }
-#divNav {
+nav {
     border: 3px solid black;
     margin: 0 20px;
     background-color: red;
 
     display: flex;
     align-items: center; /* Alinha verticalmente */
-    font-size: 20px;
+    justify-content: space-between;
     padding: 20px;
-}
-
-#caixaImg {
-    margin: 0 20px /* Adiciona um espaçamento entre a imagem e os links */
+    font-size: 40px;
 }
 #imgCabecalho{
     width: 20%;
 }
-header li{
-    display: inline;
-    font-weight: bold;
-    text-transform: uppercase;
+li{
+    line-height: 1;
+    text-align:start;
 }
 .paragrafos p,h2,li{
     margin: 0 20%;
@@ -31,4 +28,8 @@ header li{
 }
 .paragrafos li{
     margin: 0 0 0 20%;
+}
+#sectionVideo{
+    display: flex;
+    justify-content: center;
 }
